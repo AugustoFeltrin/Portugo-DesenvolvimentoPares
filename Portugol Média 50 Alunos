@@ -22,7 +22,7 @@ programa {
 
     para( real a = 0; a < 5; a++) {
       real media = (n1[a] + n2[a] + n3[a] + n4[a]) / 4
-      escreva("A média do aluno ", nomes[a], " é ", media, "\n")
+      escreva("A mÃ©dia do aluno ", nomes[a], " Ã© ", media, "\n")
     }
   }
 }
