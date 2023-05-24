@@ -1,0 +1,28 @@
+programa {
+  funcao inicio() {
+    cadeia nomes[50]
+    real n1[50]
+    real n2[50]
+    real n3[50]
+    real n4[50]
+
+    para(inteiro i = 0; i < 5; i++) {
+      escreva("Qual o nome do aluno? ")
+      leia(nomes[i])
+      escreva("Primeira nota: ")
+      leia(n1[i])
+      escreva("Segunda nota: ");
+      leia(n2[i])
+      escreva("Terceira nota: ")
+      leia(n3[i])    
+      escreva("Quarta nota: ")
+      leia(n4[i])
+    }
+      limpa()
+
+    para( real a = 0; a < 5; a++) {
+      real media = (n1[a] + n2[a] + n3[a] + n4[a]) / 4
+      escreva("A média do aluno ", nomes[a], " é ", media, "\n")
+    }
+  }
+}
